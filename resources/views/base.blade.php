@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Gentelella Alela! | </title>
+    <title>careConcept</title>
 
     <!-- Bootstrap -->
     <link href="{{asset('/gentelella-master/vendors/bootstrap/dist/css/bootstrap.min.css')}}" rel="stylesheet">
@@ -21,7 +21,7 @@
 
     <!-- Custom Theme Style -->
     <link href="{{asset('/gentelella-master/build/css/custom.min.css')}}" rel="stylesheet">
-    @yield('top_css')
+    @yield('top-css')
   
 
   </head>
@@ -52,7 +52,7 @@
             <br />
 
             <!-- sidebar menu -->
-            @include('partials/_sidebar_menu')
+            @include('partials/_menu')
             <!-- /sidebar menu -->
 
             <!-- /menu footer buttons -->
@@ -79,9 +79,8 @@
         <!-- /footer content -->
       </div>
     </div>
-    @section('footer-scripts')
+    @yield('footer-scripts')
 
-    @stop
         <!-- jQuery -->
         <script src="{{asset('/gentelella-master/vendors/jquery/dist/jquery.min.js')}}"></script>
         <!-- Bootstrap -->
