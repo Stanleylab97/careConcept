@@ -21,6 +21,7 @@ class CreateEntreprisesTable extends Migration
             $table->string('tel');
             $table->string('email');
             $table->string('site');
+            $table->foreignId('user_id')->constrained()->onDelete('cascade');
             $table->timestamps();
         });
     }
@@ -32,6 +33,7 @@ class CreateEntreprisesTable extends Migration
      */
     public function down()
     {
+       
         Schema::dropIfExists('entreprises');
     }
 }

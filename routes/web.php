@@ -28,6 +28,6 @@ Route::namespace('Admin')->prefix('admin')->name('admin.')->middleware('can:mana
 });
 
 
-Route::namespace('Admin')->prefix('admin')->name('admin.')->middleware('can:manage-users')->group(function(){
+Route::namespace('Admin')->prefix('admin')->name('admin.')->middleware('can:manage-users','can:manage-entreprises')->group(function(){
     Route::resource('/entreprise','EntrepriseController');
 });

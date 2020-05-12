@@ -37,8 +37,15 @@ class EntrepriseController extends Controller
      */
     public function store(Request $request)
     {
+        auth()->user()->entreprises()->create([
+		  'libelle'=>$request->libelle,
+		  'slogan'=>$request->slogan,
+		  'tel'=>$request->tel,
+		  'email'=>$request->email,
+		  'site'=>$request->site,
+		  'description'=>$request->description
+		]);
         
-        Entreprise::create($request->all());
         return redirect(route('admin.entreprise.index'));
     }
 

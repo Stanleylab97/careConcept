@@ -2,6 +2,7 @@
 
 namespace App;
 
+use App\User;
 use Illuminate\Database\Eloquent\Model;
 
 class Entreprise extends Model
@@ -14,4 +15,9 @@ class Entreprise extends Model
     protected $fillable = [
         'libelle', 'description', 'slogan', 'tel', 'email','site'
     ];
+
+
+    public function saver(){
+        return $this->belongsTo(User::class); 
+    }
 }
