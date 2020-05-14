@@ -11,16 +11,16 @@
     <title>careConcept</title>
 
     <!-- Bootstrap -->
-    <link href="{{asset('/gentelella-master/vendors/bootstrap/dist/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{asset('/careConcept/public/gentelella-master/vendors/bootstrap/dist/css/bootstrap.min.css')}}" rel="stylesheet">
     <!-- Font Awesome -->
-    <link href="{{asset('/gentelella-master/vendors/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet">
+    <link href="{{asset('/careConcept/public/gentelella-master/vendors/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet">
     <!-- NProgress -->
-    <link href="{{asset('/gentelella-master/vendors/nprogress/nprogress.css')}}" rel="stylesheet">
+    <link href="{{asset('/careConcept/public/gentelella-master/vendors/nprogress/nprogress.css')}}" rel="stylesheet">
     <!-- jQuery custom content scroller -->
-    <link href="{{asset('/gentelella-master/vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css')}}" rel="stylesheet"/>
+    <link href="{{asset('/careConcept/public/gentelella-master/vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css')}}" rel="stylesheet"/>
 
     <!-- Custom Theme Style -->
-    <link href="{{asset('/gentelella-master/build/css/custom.min.css')}}" rel="stylesheet">
+    <link href="{{asset('/careConcept/public/gentelella-master/build/css/custom.min.css')}}" rel="stylesheet">
     @yield('top-css')
   
 
@@ -40,7 +40,7 @@
             <!-- menu profile quick info -->
             <div class="profile clearfix">
               <div class="profile_pic">
-                <img src="{{asset('/gentelella-master/production/images/img.jpg')}}" alt="..." class="img-circle profile_img">
+                <img src="{{asset('/careConcept/public/gentelella-master/production/images/img.jpg')}}" alt="..." class="img-circle profile_img">
               </div>
               <div class="profile_info">
                 <span>Bienvenue,</span>
@@ -82,18 +82,18 @@
     @yield('footer-scripts')
 
         <!-- jQuery -->
-        <script src="{{asset('/gentelella-master/vendors/jquery/dist/jquery.min.js')}}"></script>
+        <script src="{{asset('/careConcept/public/gentelella-master/vendors/jquery/dist/jquery.min.js')}}"></script>
         <!-- Bootstrap -->
-        <script src="{{asset('/gentelella-master/vendors/bootstrap/dist/js/bootstrap.min.js')}}"></script>
+        <script src="{{asset('/careConcept/public/gentelella-master/vendors/bootstrap/dist/js/bootstrap.min.js')}}"></script>
         <!-- FastClick -->
-        <script src="{{asset('/gentelella-master/vendors/fastclick/lib/fastclick.js')}}"></script>
+        <script src="{{asset('/careConcept/public/gentelella-master/vendors/fastclick/lib/fastclick.js')}}"></script>
         <!-- NProgress -->
-        <script src="{{asset('/gentelella-master/vendors/nprogress/nprogress.js')}}"></script>
+        <script src="{{asset('/careConcept/public/gentelella-master/vendors/nprogress/nprogress.js')}}"></script>
         <!-- jQuery custom content scroller -->
-        <script src="{{asset('/gentelella-master/vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js')}}"></script>
+        <script src="{{asset('/careConcept/public/gentelella-master/vendors/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js')}}"></script>
 
         <!-- Custom Theme Scripts -->
-        <script src="{{asset('/gentelella-master/build/js/custom.min.js')}}"></script>
+        <script src="{{asset('/careConcept/public/gentelella-master/build/js/custom.min.js')}}"></script>
    
   </body>
 </html>

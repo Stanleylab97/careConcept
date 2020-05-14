@@ -1,19 +1,19 @@
 @extends('base')
 
 @section('top-css')
-  <link href="{{asset('/gentelella-master/vendors/google-code-prettify/bin/prettify.min.css')}}" rel="stylesheet">
+  <link href="{{asset('/careConcept/public/gentelella-master/vendors/google-code-prettify/bin/prettify.min.css')}}" rel="stylesheet">
     <!-- iCheck -->
-    <link href="{{asset('/gentelella-master/vendors/iCheck/skins/flat/green.css')}}" rel="stylesheet">
+    <link href="{{asset('/careConcept/public/gentelella-master/vendors/iCheck/skins/flat/green.css')}}" rel="stylesheet">
     <!-- bootstrap-wysiwyg -->
-    <link href="{{asset('/gentelella-master/vendors/google-code-prettify/bin/prettify.min.css')}}" rel="stylesheet">
+    <link href="{{asset('/careConcept/public/gentelella-master/vendors/google-code-prettify/bin/prettify.min.css')}}" rel="stylesheet">
     <!-- Select2 -->
-    <link href="{{asset('/gentelella-master/vendors/select2/dist/css/select2.min.css')}}" rel="stylesheet">
+    <link href="{{asset('/careConcept/public/gentelella-master/vendors/select2/dist/css/select2.min.css')}}" rel="stylesheet">
     <!-- Switchery -->
-    <link href="{{asset('/gentelella-master/vendors/switchery/dist/switchery.min.css')}}" rel="stylesheet">
+    <link href="{{asset('/careConcept/public/gentelella-master/vendors/switchery/dist/switchery.min.css')}}" rel="stylesheet">
     <!-- starrr -->
-    <link href="{{asset('/gentelella-master/vendors/starrr/dist/starrr.css')}}" rel="stylesheet">
+    <link href="{{asset('/careConcept/public/gentelella-master/vendors/starrr/dist/starrr.css')}}" rel="stylesheet">
     <!-- bootstrap-daterangepicker -->
-    <link href="{{asset('/gentelella-master/vendors/bootstrap-daterangepicker/daterangepicker.css')}}" rel="stylesheet">
+    <link href="{{asset('/careConcept/public/gentelella-master/vendors/bootstrap-daterangepicker/daterangepicker.css')}}" rel="stylesheet">
 @endsection
 @section('content')
  <div class="right_col" role="main">
@@ -117,26 +117,26 @@
 @endsection
 
 @section('footer-scripts')
-  <script src="{{asset('/gentelella-master/vendors/iCheck/icheck.min.js')}}"></script>
+  <script src="{{asset('/careConcept/public/gentelella-master/vendors/iCheck/icheck.min.js')}}"></script>
     <!-- bootstrap-daterangepicker -->
-    <script src="{{asset('/gentelella-master/vendors/moment/min/moment.min.js')}}"></script>
-    <script src="{{asset('/gentelella-master/vendors/bootstrap-daterangepicker/daterangepicker.js')}}"></script>
+    <script src="{{asset('/careConcept/public/gentelella-master/vendors/moment/min/moment.min.js')}}"></script>
+    <script src="{{asset('/careConcept/public/gentelella-master/vendors/bootstrap-daterangepicker/daterangepicker.js')}}"></script>
 <!-- bootstrap-wysiwyg -->
-    <script src="{{asset('/gentelella-master/vendors/bootstrap-wysiwyg/js/bootstrap-wysiwyg.min.js')}}"></script>
-    <script src="{{asset('/gentelella-master/vendors/jquery.hotkeys/jquery.hotkeys.js')}}"></script>
-    <script src="{{asset('/gentelella-master/vendors/google-code-prettify/src/prettify.js')}}"></script>
+    <script src="{{asset('/careConcept/public/gentelella-master/vendors/bootstrap-wysiwyg/js/bootstrap-wysiwyg.min.js')}}"></script>
+    <script src="{{asset('/careConcept/public/gentelella-master/vendors/jquery.hotkeys/jquery.hotkeys.js')}}"></script>
+    <script src="{{asset('/careConcept/public/gentelella-master/vendors/google-code-prettify/src/prettify.js')}}"></script>
     <!-- jQuery Tags Input -->
-    <script src="{{asset('/gentelella-master/vendors/jquery.tagsinput/src/jquery.tagsinput.js')}}"></script>
+    <script src="{{asset('/careConcept/public/gentelella-master/vendors/jquery.tagsinput/src/jquery.tagsinput.js')}}"></script>
     <!-- Switchery -->
-    <script src="{{asset('/gentelella-master/vendors/switchery/dist/switchery.min.js')}}"></script>
+    <script src="{{asset('/careConcept/public/gentelella-master/vendors/switchery/dist/switchery.min.js')}}"></script>
     <!-- Select2 -->
-    <script src="{{asset('/gentelella-master/vendors/select2/dist/js/select2.full.min.js')}}"></script>
+    <script src="{{asset('/careConcept/public/gentelella-master/vendors/select2/dist/js/select2.full.min.js')}}"></script>
     <!-- Parsley -->
-    <script src="{{asset('/gentelella-master/vendors/parsleyjs/dist/parsley.min.js')}}"></script>
+    <script src="{{asset('/careConcept/public/gentelella-master/vendors/parsleyjs/dist/parsley.min.js')}}"></script>
     <!-- Autosize -->
-    <script src="{{asset('/gentelella-master/vendors/autosize/dist/autosize.min.js')}}"></script>
+    <script src="{{asset('/careConcept/public/gentelella-master/vendors/autosize/dist/autosize.min.js')}}"></script>
     <!-- jQuery autocomplete -->
-    <script src="{{asset('/gentelella-master/vendors/devbridge-autocomplete/dist/jquery.autocomplete.min.js')}}"></script>
+    <script src="{{asset('/careConcept/public/gentelella-master/vendors/devbridge-autocomplete/dist/jquery.autocomplete.min.js')}}"></script>
     <!-- starrr -->
-    <script src="{{asset('/gentelella-master/vendors/starrr/dist/starrr.js')}}"></script>
+    <script src="{{asset('/careConcept/public/gentelella-master/vendors/starrr/dist/starrr.js')}}"></script>
 @endsection

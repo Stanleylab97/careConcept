@@ -11,16 +11,16 @@
     <title>careConcept | </title>
 
     <!-- Bootstrap -->
-    <link href="{{asset('/gentelella-master/vendors/bootstrap/dist/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{asset('/careConcept/public/gentelella-master/vendors/bootstrap/dist/css/bootstrap.min.css')}}" rel="stylesheet">
     <!-- Font Awesome -->
-    <link href="{{asset('/gentelella-master/vendors/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet">
+    <link href="{{asset('/careConcept/public/gentelella-master/vendors/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet">
     <!-- NProgress -->
-    <link href="{{asset('/gentelella-master/vendors/nprogress/nprogress.css')}}" rel="stylesheet">
+    <link href="{{asset('/careConcept/public/gentelella-master/vendors/nprogress/nprogress.css')}}" rel="stylesheet">
     <!-- Animate.css -->
-    <link href="{{asset('/gentelella-master/vendors/animate.css/animate.min.css')}}" rel="stylesheet">
+    <link href="{{asset('/careConcept/public/gentelella-master/vendors/animate.css/animate.min.css')}}" rel="stylesheet">
 
     <!-- Custom Theme Style -->
-    <link href="{{asset('/gentelella-master/build/css/custom.min.css')}}" rel="stylesheet">
+    <link href="{{asset('/careConcept/public/gentelella-master/build/css/custom.min.css')}}" rel="stylesheet">
 
 
 <!-- Start of Async Callbell Code -->
