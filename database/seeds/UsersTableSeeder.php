@@ -26,7 +26,9 @@ class UsersTableSeeder extends Seeder
             'email'     => 'admin@gmail.com',
             'tel'       => '97569701',
             'genre'     => 'Masculin',
-            'password'  => Hash::make('12345678')
+            'password'  => Hash::make('12345678'),
+            'email_verified_at' => '2020-04-30 11:41:37
+'
         ]);
 
         $user=User::create([
@@ -34,7 +36,8 @@ class UsersTableSeeder extends Seeder
             'email'     => 'user@gmail.com',
             'tel'       => '91264308',
             'genre'     => 'Féminin',
-            'password'  => Hash::make('12345678')
+            'password'  => Hash::make('12345678'),
+            'email_verified_at' => '2020-04-30 11:41:37'
         ]);
 
         $author=User::create([
@@ -42,7 +45,8 @@ class UsersTableSeeder extends Seeder
             'email'     => 'author@gmail.com',
             'tel'       => '95564701',
             'genre'     => 'Masculin',
-            'password'  => Hash::make('12345678')
+            'password'  => Hash::make('12345678'),
+            'email_verified_at' => '2020-04-30 11:41:37'
         ]);
 
          $admin->roles()->attach($adminRole);
