@@ -59,16 +59,23 @@
                             
                           </div>
                           <div class="col-xs-12 bottom text-center">
-                            <div class="col-xs-12 col-sm-6 emphasis">
-                              <p class="ratings">
-                                
-                              </p>
-                            </div>
-                            <div class="col-xs-12 col-sm-6 emphasis">
-                              <button type="button" class="btn btn-primary btn-xs">
-                                <i class="fa fa-edit"> </i> Editer
-                              </button>
-                            </div>
+                             <div class="col-xs-12 col-sm-3 emphasis">
+                                <button type="button" class="btn btn-primary btn-xs">
+                                                <i class="fa fa-edit"> </i>Rejoindre
+                                              </button>
+                              </div>
+                              <div class="col-xs-12 col-sm-3 emphasis">	
+                                <button type="button" class="btn btn-primary btn-xs">
+                                                <i class="fa fa-edit"> </i>Suivre
+                                              </button>
+                              </div>
+                                @can('manage-entreprises')	  
+                              <div class="col-xs-12 col-sm-3 emphasis">
+                                <button type="button" class="btn btn-primary btn-xs">
+                                                <i class="fa fa-show"> </i>Enregistrer une visite
+                                              </button>
+                              </div>
+                              @endcan()
                           </div>
                         </div>
                       </div>
