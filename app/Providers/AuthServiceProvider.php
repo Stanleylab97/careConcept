@@ -38,7 +38,7 @@ class AuthServiceProvider extends ServiceProvider
         });
 
         Gate::define('manage-entreprises',function($user){
-            return $user->hasSave($entreprise);
+            return $user->hasSave(1);
         });
     }
 }
