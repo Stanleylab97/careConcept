@@ -59,10 +59,5 @@ class User extends Authenticatable implements MustVerifyEmail
         return false;
     }
 
-    public function hasSave($entreprise){
-        if($this->entreprises()->find($entreprise)!=null){
-            return true;
-        }
-        return false;
-    }
+    
 }
