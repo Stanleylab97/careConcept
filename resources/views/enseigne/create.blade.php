@@ -91,7 +91,7 @@
                              </div>
                          </div> 
 
-                         <label for="message">Message (20 chars min, 200 max) :</label>
+                         <label for="message">Description (20 chars min, 200 max) :</label>
                           <textarea id="message" required="required" class="form-control" name="description" data-parsley-trigger="keyup" data-parsley-minlength="10" data-parsley-maxlength="200" data-parsley-minlength-message="Come on! You need to enter at least a 20 caracters long comment.."
                             data-parsley-validation-threshold="10"></textarea>
 
